@@ -1,7 +1,7 @@
 {
   "name": "openmage/magento-lts",
   "license": "OSL-3.0",
-  "type": "magento-source",
+  "type": "magento-core",
   "require": {
     "php": ">=5.2.13",
     "magento-hackathon/magento-composer-installer": "*"
@@ -22,73 +22,5 @@
       "email": "david.robinson@aoe.com",
       "role": "Maintainer"
     }
-  ],
-  "extra": {
-      "map": [
-          [
-              "app",
-              "app"
-          ],
-          [
-              "errors",
-              "errors"
-          ],
-          [
-              "includes",
-              "includes"
-          ],
-          [
-              "js",
-              "js"
-          ],
-          [
-              "lib",
-              "lib"
-          ],
-          [
-              "media",
-              "media"
-          ],
-          [
-              "pkginfo",
-              "pkginfo"
-          ],
-          [
-              "shell",
-              "shell"
-          ],
-          [
-              "skin",
-              "skin"
-          ],
-          [
-              "var",
-              "var"
-          ],
-          [
-              "api.php",
-              "api.php"
-          ],
-          [
-              "cron.php",
-              "cron.php"
-          ],
-          [
-              "cron.sh",
-              "cron.sh"
-          ],
-          [
-              "get.php",
-              "get.php"
-          ],
-          [
-              "index.php",
-              "index.php"
-          ],
-          [
-              "install.php",
-              "install.php"
-          ]
-      ]
-    }
+  ]
 }
